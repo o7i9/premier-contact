@@ -4,8 +4,12 @@ import reactLogo from './assets/react.svg'
 import viteLogo from './assets/vite.svg'
 import './App.css'
 
+
+
 function App() {
   const [count, setCount] = useState(0)
+  const studentName: string = 'Myriam YAHI';
+const courseName: string = 'Programmation Web - L3 MIASHS';
 
   return (
     <>
@@ -20,7 +24,9 @@ function App() {
           <p>
             Découverte de React avec Typescript.
           </p>
-            
+          <p>
+            Étudiante : {studentName} | Cours : {courseName}
+          </p>
         </div>
         <button
           type="button"
